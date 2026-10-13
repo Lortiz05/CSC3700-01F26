@@ -1,0 +1,44 @@
+### GET request to example server
+
+
+### Get Request to server
+### Get all Books
+GET http://localhost:3333/books
+### Get 1 Book
+GET http://localhost:3333/books/2
+
+# POST -> Insert new Book
+### (this is a request seperator)
+POST http://localhost:3333/books
+Content-type: application/json
+
+{
+  "title": "Educated Part 2",
+  "author": "Tara Westover",
+  "cost": 100.59,
+  "desc": "The continuing story"
+}
+
+### POST -> Update 1 or more fields new Book
+
+### Delete
+ DELETE https://localhost:3333/books/4
+Content-Type: application/json
+
+
+###put
+PUT http://localhost:3333/books/1
+Content-Type: application/json
+
+{
+  "title": "All about me",
+  "author": "Me",
+  "cost": 12000.99,
+  "desc": "idk"
+}
+
+###
+PATCH http://localhost:3333/books/1
+Content-Type: application/json
+
+{}

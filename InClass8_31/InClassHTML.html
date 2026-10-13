@@ -1,0 +1,47 @@
+<!-- firstOne.html -->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>My Title</title>
+  <!-- START embedded CSS -- shown first before external stylesheet -->
+
+  <style>
+    ol {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+  <!-- NOTE add external stylesheet after showing embedded CSS -->
+  <link rel='stylesheet' href= 'css/main.css' />
+</head>
+<body>
+<header>
+  <h1>Books 4 U</h1>
+</header>
+<div class="panelBox1">
+  <p>Here is our current store of books:</p>
+  <ol>
+    <li>American Prometheus <img src="imgs/p.png" width="75px" alt="American Icon"></li>
+    <li>Educated</li>
+    <!-- NOTE inline style example -- show contrast with external CSS -->
+    <li>The Fellowship of the <span style='color:blueviolet; font-size:30px'>Ring</span></li>
+  </ol>
+</div>
+<main>
+  <p>Here is our current store of books:</p>
+  <ol>
+    <li>American Prometheus</li>
+    <li>Educated</li>
+    <!-- NOTE inline style example -- show contrast with external CSS -->
+    <li>The Fellowship of the <span style='color:blueviolet; font-size:30px'>Ring</span></li>
+  </ol>
+</main>
+<footer>
+  Thank you for viewing this page!
+</footer>
+</body>
+</html>
